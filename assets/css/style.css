@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Header styling */
 header{
     width: 100%;
     height: 100px;
@@ -21,12 +21,15 @@ header h1{
 body{
     background-color: rgb(34, 34, 35);
 }
+/* Styling for all weather icons */
 img{
     height: 40px;
 }
+/* Changes your cursor when you hover over a button */
 button:hover{
     cursor: pointer;
 }
+/* City info article styling */
 #cityInfo{
     display: flex;
     flex-direction: column;
@@ -35,6 +38,7 @@ button:hover{
     width: 25%;
     border-right: 2px solid rgb(136, 133, 133);
 }
+/* Search button styling */
 #cityInfoSearch{
     width: 95%;
     border-bottom: 2px solid rgb(136, 133, 133)
@@ -45,6 +49,7 @@ button:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(136, 133, 133)
 }
+/* Input box styling */
 #cityInfoSearch input{
     box-sizing: content-box;
     margin: 10px auto;
@@ -55,6 +60,7 @@ button:hover{
     font-size: 20px;
     border: 2px solid rgb(150, 148, 148);
 }
+/* Main styling for top buttons */
 #cityInfoSearch button{
     margin: 10px auto 20px auto;
     width: 100%;
@@ -65,6 +71,7 @@ button:hover{
     color: white;
     background-color: rgb(10, 112, 202);
 }
+/* Styling for search history article */
 #citySearchHistory{
     display: flex;
     flex-direction: column;
@@ -73,7 +80,7 @@ button:hover{
     margin-top: 10px;
 
 }
-
+/* Styling for clear button */
 .clearButton{
     margin: 10px auto 10px auto;
     width: 95%;
@@ -84,10 +91,12 @@ button:hover{
     color: white;
     background-color: rgb(10, 112, 202);
 }
+/* Styling for search history results */
 #citySearches{
     width: 100%;
     align-content: center;
 }
+/* Styling for search history buttons */
 #citySearches button{
     margin: 10px;
     width: 95%;
@@ -97,7 +106,7 @@ button:hover{
     border: none;
     background-color: rgb(150, 148, 148);
 }
-
+/* Styling for current day's weather */
 #currentWeather{
     margin: 30px 50px;
     position: absolute;
@@ -108,17 +117,20 @@ button:hover{
     border: 2px solid rgb(150, 148, 148);
     border-radius: 8px;
 }
+/* Styling for city(current day) */
 #currentWeather h2{
     margin: 20px;
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     color: rgb(10, 112, 202);
 }
+/* Styling for current day date */
 #currentWeather span{
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     color: rgb(195, 190, 190);
 }
+/* Styling for current day's weather status' */
 #currentWeather p{
     margin: 20px;
     font-size: 25px;
@@ -126,6 +138,7 @@ button:hover{
     color: rgb(195, 190, 190);
 
 }
+/* Styling for five day forecast */
 #forecasts{
     margin: 0 50px 10px 50px;
     position: absolute;
@@ -135,13 +148,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
-#forecasts h2{
-    left: 27%;
-    top: 400px;
-    font-size: 200%;
-    color: rgb(195, 190, 190);
-    font-family: "Roboto", sans-serif;
-}
+/* Styling for forecast cards */
 .forecastCard{
     width: 250px;
     height: 300px;
@@ -151,15 +158,18 @@ button:hover{
     font-family: "Roboto", sans-serif;
     border-radius: 8px;
 }
+/* Styling for forecast card dates */
 .forecastCard h3{
     margin: 20px 5px 10px 5px;
     color: rgb(10, 112, 202);
     font-size: 35px
 }
+/* Styling for forecast card status' */
 .forecastCard p{
     margin: 15px 5px 15px 5px;
     color: rgb(195, 190, 190)
 }
+/* Styling for forecast card weather icons */
 .forecastCard img{
-    margin-left: 5px;
+    margin-left: 10px;
 }
