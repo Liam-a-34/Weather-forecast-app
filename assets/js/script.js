@@ -39,11 +39,11 @@ fetch(weatherURLToday)
         }
     } else if (data.weather[0].main == "Clouds"){
         visibility = "./assets/images/clouds.png"
-    } else if (data.weather[0].main == "Fog" || data.list[i].weather[0].main == "Mist"){
-        visibility = "./assets/images/if-weather-30-2682821-90800.png "
+    } else if (data.weather[0].main == "Fog" || data.weather[0].main == "Mist"){
+        visibility = "./assets/images/if-weather-30-2682821_90800.png "
     } else if (data.weather[0].main == "Rain"){
         visibility = "./assets/images/kindpng_762896.png"
-    } else if (data.weather[0].main == "Snow" || data.list[i].weather[0].main == "Sleet"){
+    } else if (data.weather[0].main == "Snow" || data.weather[0].main == "Sleet"){
         visibility = "./assets/images/clipart1563013.png"
     }
      else {
