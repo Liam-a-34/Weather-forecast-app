@@ -113,11 +113,11 @@ for (var i = 4; i < 37; i += 8){
             visibility = "./assets/images/clipart562720.png"
     } else if (data.list[i].weather[0].main == "Clouds"){
         visibility = "./assets/images/clouds.png"
-    } else if (data.list[i].weather[0].main == "Fog") {
+    } else if (data.list[i].weather[0].main == "Fog" || data.list[i].weather[0].main == "Mist") {
         visibility = "./assets/images/if-weather-30-2682821-90800.png "
     } else if (data.list[i].weather[0].main == "Rain"){
         visibility = "./assets/images/kindpng_762896.png"
-    } else if (data.list[i].weather[0].main == "Snow"){
+    } else if (data.list[i].weather[0].main == "Snow" || data.list[i].weather[0].main == "Sleet"){
         visibility = "./assets/images/clipart1563013.png"
     }
      else {
