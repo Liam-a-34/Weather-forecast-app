@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: rgb(195, 190, 190);
+    background-color: rgb(53, 53, 54);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid rgb(136, 133, 133);
+}
+header h1{
+    position: relative;
+    top: 10px;
+}
+body{
+    background-color: rgb(34, 34, 35);
+}
+img{
+    height: 40px;
+}
+button:hover{
+    cursor: pointer;
+}
+#cityInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 25%;
+    border-right: 2px solid rgb(136, 133, 133);
+}
+#cityInfoSearch{
+    width: 95%;
+    border-bottom: 2px solid rgb(136, 133, 133)
+}
+#cityInfoSearch h2{
+    position: relative;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(136, 133, 133)
+}
+#cityInfoSearch input{
+    box-sizing: content-box;
+    margin: 10px auto;
+    width: 97%;
+    height: 30px;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(150, 148, 148);
+}
+#cityInfoSearch button{
+    margin: 10px auto 20px auto;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(10, 112, 202);
+}
+#citySearchHistory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.clearButton{
+    margin: 10px auto 10px auto;
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(10, 112, 202);
+}
+#citySearches{
+    width: 100%;
+    align-content: center;
+}
+#citySearches button{
+    margin: 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(150, 148, 148);
+}
+
+#currentWeather{
+    margin: 30px 50px;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    top: 100px;
+    width: 70%;
+    border: 2px solid rgb(150, 148, 148);
+    border-radius: 8px;
+}
+#currentWeather h2{
+    margin: 20px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(10, 112, 202);
+}
+#currentWeather span{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(195, 190, 190);
+}
+#currentWeather p{
+    margin: 20px;
+    font-size: 25px;
+    font-family: "Roboto ", sans-serif;
+    color: rgb(195, 190, 190);
+
+}
+#forecasts{
+    margin: 0 50px 10px 50px;
+    position: absolute;
+    right: 0;
+    top: 400px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#forecasts h2{
+    left: 27%;
+    top: 400px;
+    font-size: 200%;
+    color: rgb(195, 190, 190);
+    font-family: "Roboto", sans-serif;
+}
+.forecastCard{
+    width: 250px;
+    height: 300px;
+    padding-left: 10px;
+    background-color: rgb(53, 53, 54);
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 8px;
+}
+.forecastCard h3{
+    margin: 20px 5px 10px 5px;
+    color: rgb(10, 112, 202);
+    font-size: 35px
+}
+.forecastCard p{
+    margin: 15px 5px 15px 5px;
+    color: rgb(195, 190, 190)
+}
+.forecastCard img{
+    margin-left: 5px;
+}
