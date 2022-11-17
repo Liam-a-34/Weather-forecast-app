@@ -32,7 +32,7 @@ fetch(weatherURLToday)
 
 // Checks to see what the weather is and assigns the correct icon
     if(data.weather[0].main == "Clear"){
-        if(dayjs().format("HH") < 6 || dayjs().format("HH") > 8){
+        if(dayjs().format("HH") < 06 || dayjs().format("HH") > 20){
             visibility = "./assets/images/clipart3046907.png"
         } else {
             visibility = "./assets/images/clipart562720.png"
